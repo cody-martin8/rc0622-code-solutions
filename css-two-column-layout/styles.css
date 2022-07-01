@@ -1,0 +1,144 @@
+.container {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column-full {
+  width: 100%;
+  margin-top: 60px;
+  margin-bottom: 35px;
+  display: flex;
+  justify-content: center;
+}
+
+.column-wrap {
+  width: 50%;
+  display: flex;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.column-third {
+  width: calc(100% / 3);
+  display: flex;
+  justify-content: flex-end;
+}
+
+.column-two-thirds {
+  width: 55%;
+  padding-top: 20px;
+}
+
+p {
+  line-height: 160%;
+  font-size: 0.95rem;
+  font-family: Karla, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://fonts.gstatic.com/s/karla/v7/qkBbXvYC6trAT7RVLtyU5rZP.woff2") format("woff2");
+  unicode-range:
+    u+0000-00ff,
+    u+0131,
+    u+0152-0153,
+    u+02bb-02bc,
+    u+02c6,
+    u+02da,
+    u+02dc,
+    u+2000-206f,
+    u+2074,
+    u+20ac,
+    u+2122,
+    u+2191,
+    u+2193,
+    u+2212,
+    u+2215,
+    u+feff,
+    u+fffd;
+}
+
+h1,
+h3 {
+  text-transform: uppercase;
+  font-family: Karla, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://fonts.gstatic.com/s/karla/v7/qkBWXvYC6trAT7zuC8m5xLtlmgzD.woff2") format("woff2");
+  unicode-range:
+    u+0000-00ff,
+    u+0131,
+    u+0152-0153,
+    u+02bb-02bc,
+    u+02c6,
+    u+02da,
+    u+02dc,
+    u+2000-206f,
+    u+2074,
+    u+20ac,
+    u+2122,
+    u+2191,
+    u+2193,
+    u+2212,
+    u+2215,
+    u+feff,
+    u+fffd;
+}
+
+h1 {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+header {
+  text-align: center;
+  margin-left: 170px;
+  margin-right: 170px;
+}
+
+img {
+  height: 120px;
+}
+
+button {
+  color: rgb(216 58 0);
+  background-color: white;
+  border: solid;
+  border-color: rgb(216 58 0);
+  border-width: 2px 3px 3px;
+  width: 180px;
+  height: 38px;
+  text-transform: uppercase;
+  font-size: 0.95rem;
+  font-family: Karla, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://fonts.gstatic.com/s/karla/v7/qkBbXvYC6trAT7RVLtyU5rZP.woff2") format("woff2");
+  unicode-range:
+    u+0000-00ff,
+    u+0131,
+    u+0152-0153,
+    u+02bb-02bc,
+    u+02c6,
+    u+02da,
+    u+02dc,
+    u+2000-206f,
+    u+2074,
+    u+20ac,
+    u+2122,
+    u+2191,
+    u+2193,
+    u+2212,
+    u+2215,
+    u+feff,
+    u+fffd;
+}
