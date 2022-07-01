@@ -43,7 +43,7 @@ body {
   margin-bottom: 30px;
 }
 
-.column-third {
+.column-fourth {
   flex-basis: 25%;
   display: flex;
   justify-content: center;
