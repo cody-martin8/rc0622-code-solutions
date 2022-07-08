@@ -1,0 +1,53 @@
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.column-fourth {
+  width: 25%;
+}
+
+.smartphone-image {
+  width: 100%;
+}
+
+.smartphone-image > img {
+  width: 100%;
+}
+
+.icon-image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.icon-image > img {
+  width: 25%;
+}
+
+.app-feature {
+  text-align: center;
+}
+
+.feature-description {
+  text-align: center;
+  font-family: Barlow, sans-serif;
+  font-weight: 400;
+}
+
+.header {
+  font-family: Barlow, sans-serif;
+  font-weight: bolder;
+}
+
+h4 {
+  font-family: Barlow, sans-serif;
+  font-weight: 700;
+}
