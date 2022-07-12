@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+}
+
+.bulb-row.off {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(10 10 10);
+}
+
+.bulb-row.on {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255 249 239);
+}
+
+.bulb-wrapper {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button.off {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  background-color: rgb(44 44 44);
+  box-shadow: 0 -15px 0 10px rgb(0 0 0);
+}
+
+.button.on {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  background-color: rgb(255 237 136);
+  box-shadow: 0 0 20px rgb(255 230 120);
+  border: none;
+}
