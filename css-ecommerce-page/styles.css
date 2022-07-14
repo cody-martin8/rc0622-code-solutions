@@ -1,0 +1,40 @@
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+.header-row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.products-row {
+  display: flex;
+}
+
+.products-column {
+  width: 20%;
+}
+
+.products-column > img {
+  width: 100%;
+  height: 360px;
+}
+
+* {
+  font-family: "DM Sans", sans-serif;
+}
+
+.light-gray,
+del {
+  color: lightgray;
+}
+
+.highlight {
+  background-color: rgb(255 238 232);
+}
+
+.bold {
+  font-weight: bold;
+}
