@@ -1,0 +1,54 @@
+.container {
+  width: 1000px;
+  height: 100vh;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row {
+  width: 100%;
+  height: 100%;
+}
+
+.column {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.monospaced-font {
+  font-family: Courier, monospace;
+  font-weight: 900;
+}
+
+h4 {
+  text-align: center;
+}
+
+/* default span class: color = black */
+
+/* active span class: color = black, text-decoration = underline */
+
+/* correct span class: color = green */
+
+/* incorrect span class: color = red, text-decoration = underline */
+
+.typing {
+  color: black;
+}
+
+.typing.active {
+  color: black;
+  border-bottom: solid black 3px;
+}
+
+.typing.correct {
+  color: lime;
+}
+
+.typing.incorrect {
+  color: red;
+  border-bottom: solid red 3px;
+}
