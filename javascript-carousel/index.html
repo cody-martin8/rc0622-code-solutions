@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Carousel</title>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="column left-icon">
+        <a href="#"><i class="fa-solid fa-angle-left fa-2xl"></i></a>
+      </div>
+      <div class="column image-carousel">
+        <!-- Place images here, use separate divs -->
+        <div class="image">
+          <div class="image-wrapper">
+            <img src="images/001.png">
+          </div>
+        </div>
+        <div class="image hidden">
+          <div class="image-wrapper">
+            <img src="images/004.png">
+          </div>
+        </div>
+        <div class="image hidden">
+          <div class="image-wrapper">
+            <img src="images/007.png">
+          </div>
+        </div>
+        <div class="image hidden">
+          <div class="image-wrapper">
+            <img src="images/025.png">
+          </div>
+        </div>
+        <div class="image hidden">
+          <div class="image-wrapper">
+            <img src="images/039.png">
+          </div>
+        </div>
+        <div class="progress-dots">
+          <a href="#" class="slide-one"><i class="fa-solid fa-circle"></i></a>
+          <a href="#" class="slide-two"><i class="fa-regular fa-circle"></i></a>
+          <a href="#" class="slide-three"><i class="fa-regular fa-circle"></i></a>
+          <a href="#" class="slide-four"><i class="fa-regular fa-circle"></i></a>
+          <a href="#" class="slide-five"><i class="fa-regular fa-circle"></i></a>
+        </div>
+      </div>
+      <div class="column right-icon">
+        <a href="#"><i class="fa-solid fa-angle-right fa-2xl"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
