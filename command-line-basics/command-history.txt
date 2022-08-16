@@ -1,0 +1,344 @@
+    1  git switch main
+    2  git pull origin main
+    3  git branch html-skeleton
+    4  git branch --list
+    5  git switch html-skeleton
+    6  git status
+    7  git add html-skeleton
+    8  git status
+    9  git commit -m "Completed html-skeleton exercise."
+   10  git push origin html-skeleton
+   11  git switch main
+   12  git pull origin main
+   13  git pull origin main
+   14  git branch html-syntax
+   15  git branch --list
+   16  git switch html-syntax
+   17  git status
+   18  git add html-syntax
+   19  git status
+   20  git commit -m "Completed html-syntax exercise."
+   21  git commit -m "Completed html-syntax exercise."
+   22  git add html-syntax
+   23  git commit -m "Completed html-syntax exercise."
+   24  git push origin html-syntax
+   25  git switch main
+   26  git switch html-syntax
+   27  git add html-syntax
+   28  git status
+   29  git commit -m "Made corrections on img attributes."
+   30  git push origin html-syntax
+   31  git switch main
+   32  git pull origin main
+   33  git branch html-block-and-inline
+   34  git branch --list
+   35  git switch html-block-and-inline
+   36  git add html-block-and-inline
+   37  git status
+   38  git commit -m "Completed html-block-and-inline exercise."
+   39  git push origin html-block-and-inline
+   40  git switch main
+   41  git pull origin main
+   42  git branch html-lists
+   43  git status
+   44  git branch --list
+   45  git switch html-lists
+   46  git add html-lists
+   47  git status
+   48  git commit -m "Completed html-lists exercise."
+   49  git push origin html-lists
+   50  git switch main
+   51  git pull origin main
+   52  git branch html-links
+   53  git branch --list
+   54  git switch html-links
+   55  git status
+   56  git add html-links
+   57  git status
+   58  git commit -m "Completed html-links exercise."
+   59  git push origin html-links
+   60  git switch main
+   61  git pull origin main
+   62  git branch html-realtive-links
+   63  git branch --list
+   64  git branch -D html-realtive-links
+   65  git branch --list
+   66  git branch html-relative-links
+   67  git branch --list
+   68  git switch html-relative-links
+   69  git status
+   70  git add html-relative-links
+   71  git status
+   72  git commit -m "Completed html-relative-links exercise."
+   73  git push origin html-relative-links
+   74  git switch main
+   75  git pull origin main
+   76  git branch html-forms
+   77  git branch --list
+   78  git switch html-forms
+   79  git status
+   80  git add html-forms
+   81  git status
+   82  git commit -m "Completed html-forms exercise."
+   83  git push origin html-forms
+   84  git switch main
+   85  git branch html-tables
+   86  git branch --listr
+   87  git branch --list
+   88  git switch html-tables
+   89  git add html-tables
+   90  git status
+   91  git commit -m "Completed html-tables exercise."
+   92  git add html-tables
+   93  git status
+   94  git commit -m "Completed html-tables exercise."
+   95  git push origin html-tables
+   96  git add html-tables
+   97  git status
+   98  git commit -m "Corrections made regarding thead vs tbody."
+   99  git push origin html-tables
+  100  git switch main
+  101  git pull origin main
+  102  git branch html-web-page
+  103  git branch --list
+  104  git switch html-web-page
+  105  git add html-web-page
+  106  git status
+  107  git commit -m "Completed html-web-page exercise."
+  108  git push origin html-web-page
+  109  git switch main
+  110  git pull origin main
+  111  git switch html-web-page
+  112  git add html-web-page
+  113  git status
+  114  git commit -m "Added <header> to body element."
+  115  git push origin html-web-page
+  116  git switch main
+  117  git pull origin main
+  118  git branch css-syntax
+  119  git branch --list
+  120  git switch css-syntax
+  121  git add css-syntax
+  122  git status
+  123  git commit -m "Completed css-syntax exercise."
+  124  git push origin css-syntax
+  125  git switch main
+  126  git pull origin main
+  127  git branch css-colors
+  128  git branch --list
+  129  git switch css-colors
+  130  git add css-colors
+  131  git status
+  132  git commit -m "Completed css-colors exercise."
+  133  git push origin css-colors
+  134  git switch main
+  135  git pull origin main
+  136  git branch css-box-model
+  137  git branch --list
+  138  git switch css-box-model
+  139  git add css-box-model
+  140  git status
+  141  git commit -m "Completed css-box-model exercise."
+  142  git push origin css-box-model
+  143  git switch main
+  144  git pull origin main
+  145  git branch css-pseudo-classes
+  146  git branch --list
+  147  git switch css-pseudo-classes
+  148  git add css-pseudo-classes
+  149  git status
+  150  git commit -m "Completed css-pseudo-classes exercise."
+  151  git push origin css-pseudo-classes
+  152  git switch main
+  153  git pull origin main
+  154  git branch css-fonts
+  155  git branch --list
+  156  git switch css-fonts
+  157  git add css-fonts
+  158  git status
+  159  git commit -m "Completed css-fonts exercise."
+  160  git push origin css-fonts
+  161  git switch main
+  162  git pull origin main
+  163  git pull origin main
+  164  git branch css-brochure-form
+  165  git branch --list
+  166  git switch css-brochure-form
+  167  git add css-brochure-form
+  168  git status
+  169  git commit -m "Completed css-brochure-form exercise."
+  170  git push origin css-brochure-form
+  171  git switch main
+  172  git pull origin main
+  173  git branch css-flexbox
+  174  git branch --list
+  175  git branch --list
+  176  git branch object-manipulation-2
+  177  git switch object-manipulation-2
+  178  git add object-manipulation-2
+  179  git status
+  180  git commit -m "Completed object-manipulation-2 exercise."
+  181  git push origin object-manipulation-2
+  182  git switch main
+  183  git pull origin main
+  184  git branch javscript-custom-methods
+  185  git switch javascript-custom-methods
+  186  git branch -D javscript-custom-methods
+  187  git branch javascript-custom-methods
+  188  git switch javascript-custom-methods
+  189  git switch main
+  190  git pull origin main
+  191  git branch javascript-timers
+  192  git switch javascript-timers
+  193  git add javascript-timers
+  194  git status
+  195  git commit -m "Completed javascript-timers exercise."
+  196  git push origin javascript-timers
+  197  git switch main
+  198  git pull origin main
+  199  git branch javascript-carousel
+  200  git switch javascript-carousel
+  201  git add javascript-carousel
+  202  git commit -m "Completed javascript-carousel exercise."
+  203  git add javascript-carousel
+  204  git commit -m "Removed commented out code."
+  205  git push origin javascript-carousel
+  206  git switch main
+  207  git pull origin main
+  208  clear
+  209  http http://www.example.com
+  210  http --verbose https://example.com
+  211  http --body GET https://jsonplaceholder.typicode.com/users > http-messages/users.json
+  212  clear
+  213  git pull origin main
+  214  git branch http-messages
+  215  git switch http-messages
+  216  http https://www.example.com
+  217  http --verbose https://www.example.com
+  218  http --body GET https://jsonplaceholder.typicode.com/users > http-messages/users.json
+  219  http --body GET https://example.com > http-messages/index.html
+  220  git add http-messages
+  221  git commit -m "Completed http-messages exercise."
+  222  git push origin http-messages
+  223  git switch main
+  224  git pull origin main
+  225  git branch javascript-ajax
+  226  git switch javascript-ajax
+  227  git add javascript-ajax
+  228  git commit -m "Completed javascript-ajax exercise."
+  229  git push origin javascript-ajax
+  230  git switch main
+  231  git pull origin main
+  232  git switch string-manipulation-3
+  233  git switch main
+  234  http https://pokeapi.co/api/v2/pokemon/ditto
+  235  clear
+  236  http https://pokeapi.co/api/v2/pokemon/dragonite
+  237  clear
+  238  https://pokeapi.co/api/v2/pokemon/ditto/type
+  239  https://pokeapi.co/api/v2/type/3
+  240  https://pokeapi.co/api/v2/type/3
+  241  http https://pokeapi.co/api/v2/type/3
+  242  clear
+  243  http https://pokeapi.co/api/v2/pokemon/pikachu
+  244  clear
+  245  http https://pokeapi.co/api/v2/pokemon/pikachu/type
+  246  clear
+  247  http https://pokeapi.co/api/v2/pokemon/pikachu
+  248  http https://api.edamam.com/api/recipes/v2
+  249  http https://api.edamam.com/api/recipes/v2
+  250  http https://api.edamam.com/api/recipes/v2 \ api_key==2e0d886c58ffcac239ddf7ae29b2d302
+  251  http https://api.edamam.com/api/recipes/v2?2e0d886c58ffcac239ddf7ae29b2d302
+  252  http https://api.edamam.com/api/recipes/v2?type=public&q=chicken&app_id=25ee5a1c&app_key=2e0d886c58ffcac239ddf7ae29b2d302
+  253  git pull origin main
+  254  git branch es6-const-let
+  255  git switch es6-const-let
+  256  git add es6-const-let
+  257  git commit -m "Completed es6-const-let exercise."
+  258  git push origin es6-const-let
+  259  git switch main
+  260  git pull origin main
+  261  git branch es6-template-literals
+  262  git switch es6-template-literals
+  263  git add es6-template-literals
+  264  git commit -m "Completed es6-template-literals exercise."
+  265  git push origin es6-template-literals
+  266  git switch main
+  267  git pull origin main
+  268  git branch es6-destructuring
+  269  git switch es6-destructuring
+  270  git add es6-destructuring
+  271  git commit -m "Completed es6-destructuring exercise."
+  272  git push origin es6-destructuring
+  273  git switch main
+  274  git pull origin main
+  275  git branch es6-arrow-functions
+  276  git switch es6-arrow-functions
+  277  git add es6-arrow-functions
+  278  git commit -m "Completed es6-arrow-functions exercise."
+  279  git push origin es6-arrow-functions
+  280  git switch main
+  281  git pull origin main
+  282  git branch command-line-basics
+  283  git switch command-line-basics
+  284  clear
+  285  cd command-line-basics
+  286  man man
+  287  man cat
+  288  cat laziness.txt
+  289  cat impatience.txt
+  290  cat hubris.txt
+  291  cat laziness.txt impatience.txt hubris.txt
+  292  cat laziness.txt impatience.txt hubris.txt > three-virtues.txt
+  293  cat three-virtues.txt
+  294  man ls
+  295  ls
+  296  ls -a
+  297  ls -F
+  298  ls lfz-staff/
+  299  ls -a
+  300  ls -a lfz-staff/
+  301  ls -F lfz-staff/
+  302  ls -aF lfz-staff > lfz-staff/contents.txt
+  303  cat lfz-staff/contents.txt
+  304  man pwd
+  305  pwd
+  306  pwd > i-was-here.txt
+  307  ls
+  308  cat i-was-here.txt
+  309  man echo
+  310  echo 'Hello, World!'
+  311  echo 'Hello, World!' > hello.txt
+  312  ls
+  313  cat hello.txt
+  314  man touch
+  315  touch tag-youre-it.txt
+  316  touch snoot/boop.txt
+  317  ls snoot/
+  318  man mkdir
+  319  mkdir parent
+  320  ls parent/
+  321  mkdir -p parent/child/grandchild
+  322  touch .gitkeep > parent/child/grandchild
+  323  touch parent/child/grandchild/.gitkeep
+  324  ls -a
+  325  touch .gitkeep > parent/childgrandchild/
+  326  touch grandchild/.gitkeep
+  327  touch .gitkeep > parent/child/grandchild/
+  328  ls -a
+  329  ls -a parent/child/grandchild
+  330  man mv
+  331  man mv
+  332  mv pokiemans pokemon
+  333  ls
+  334  man rm
+  335  rm lol.txt
+  336  ls
+  337  rm -r kill-me/
+  338  ls
+  339  man cp
+  340  cp and-then.txt no-and-then.txt
+  341  ls
+  342  cat and-then.txt no-and-then.txt
+  343  man history
+  344  history > command-history.txt
