@@ -21,12 +21,11 @@ const grades = {
   }
 };
 
-const gradeArray = [];
-for (const property in grades) {
-  gradeArray.push(grades[property]);
-}
-
 app.get('/api/grades', (req, res) => {
+  const gradeArray = [];
+  for (const property in grades) {
+    gradeArray.push(grades[property]);
+  }
   res.json(gradeArray);
 });
 
