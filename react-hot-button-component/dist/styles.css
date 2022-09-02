@@ -1,0 +1,41 @@
+.btn {
+  padding: 1rem 2rem;
+  font-size: larger;
+  border: solid 0.25rem black;
+  box-shadow: 0.25rem 0.25rem black;
+  transition-duration: 300ms;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn-indigo {
+  background-color: indigo;
+  color: white;
+}
+
+.btn-purple {
+  background-color: mediumpurple;
+  color: white;
+}
+
+.btn-red {
+  background-color: indianred;
+  color: white;
+}
+
+.btn-orange {
+  background-color: orange;
+  color: black;
+}
+
+.btn-yellow {
+  background-color: gold;
+  color: black;
+}
+
+.btn-white {
+  background-color: white;
+  color: black;
+}
