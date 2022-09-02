@@ -1,0 +1,38 @@
+.btn {
+  position: relative;
+  border-radius: 1rem;
+  width: 4rem;
+  height: 1.75rem;
+}
+
+.btn-off {
+  background-color: lightgray;
+}
+
+.btn-on {
+  background-color: limegreen;
+}
+
+.slider {
+  position: absolute;
+  border: solid 2px black;
+  border-radius: 1rem;
+  background-color: white;
+  height: 1.45rem;
+  width: 1.45rem;
+  transition-duration: 500ms;
+}
+
+.sldr-on {
+  top: -0.1rem;
+  bottom: 0;
+  left: 2.15rem;
+  right: 0;
+}
+
+.sldr-off {
+  top: -0.1rem;
+  bottom: 0;
+  left: -0.1rem;
+  right: 0;
+}
