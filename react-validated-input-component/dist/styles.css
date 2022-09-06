@@ -1,0 +1,23 @@
+.row {
+  display: block;
+  margin-top: 0.25rem;
+}
+
+.margin-left {
+  margin-left: 1rem;
+}
+
+.fa-xmark {
+  color: red;
+}
+
+.fa-check {
+  color: limegreen;
+}
+
+.error-message p {
+  color: red;
+  font-size: 0.5rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+  margin: 0.5rem 0 0;
+}
