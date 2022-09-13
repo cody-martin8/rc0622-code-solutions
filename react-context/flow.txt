@@ -1,0 +1,42 @@
+- User can sign up
+  - Clicking "Register now" changes the href to '#sign-up'
+  - When user is entering a username and password, handleChange is actively updating state with those values
+  - When "Register" is clicked, handleSubmit is called
+    - 'sign-up' is passed to 'action'
+    - The username and password are stringified for the fetch POST request
+      - fetch is called with 'sign-up' being passed into the request path
+      - the user information is posted to the database
+      - Since action = 'sign-up', hash is changed to 'sign-in' to redirect the user to the log-in page after signing up.
+
+- User can sign in
+  - User inputs username and password
+  - When "Log In" is clicked, handleSubmit is called
+    - 'sign-in' is passed to 'action'
+    - The username and password are stringified for the fetch POST request
+      - fetch is called with 'sign-in' being passed into the request path
+      - if a user and token are returned in the result, onSignIn(handleSignIn) is called
+        - token is placed in local storage and user state of App is changed to reflect userId
+      - render => renderPage => JSX Auth => JSX Redirect is called with to=''
+        - hash changed to '#', and window location changed to reflect that
+          - route is parsed from window.location.hash
+          - render => renderPage => JSX Home
+            - this.context.user has value of the userId, bypassing JSX Redirect
+            - renders the app's main page to see the gif'screen
+
+- User can stay signed in
+  - since 'path' = '' when renderPage is called, JSX Home is called
+    - this.context.user has value of the userId, bypassing JSX Redirect
+    - renders the app's main page to see the gif screen
+  - this works on refresh too, as the token is saved in localStorage
+    - as long as the token has a valid value, user is not changed to null
+      - this prevents JSX Home from triggering JSX Redirect to "sign-in"
+
+- User can sign out
+  - User clicks Sign out button in navbar
+    - handleSignOut is called
+      - the token is removed from localStorage and user state is set to null
+      - on render, JSX Home is called
+        - as user is a falsey value, JSX Redirect is called with to="sign-in"
+          - hash is changed to 'sign-in'
+          - on render, renderPage directs to JSX Auth
+            - as route.path = 'sign-in', the sign-in page is rendered
